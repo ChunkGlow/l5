@@ -1,0 +1,68 @@
+<html>
+<head>
+
+<title>ChunkGlow Podcast</title>
+
+
+</head>
+
+<body>
+
+
+<h1 id="cgstudio"></h1>
+<h3 id="D#"></h3>
+<p id="d_audio_language"></p>
+<p id="d_video_language"></p>
+
+<h2>ChunkGlow Pocast, A multi-podcast company that serves over televisons, radios and the internet.</h2>
+
+<p>The Company Creates Podcast that will be brodcasting to YouTube, Spotify, ChunkDisk TV and the international Radio Stations</p>
+
+
+<p id="med"></p>
+
+
+<script>
+
+
+var podcast = [
+
+"ChunkCast", "ChunkGlow Studios", "ChunkGlow Media" , "ChunkGlow IdeaLite"
+
+
+];
+
+
+document.getElementById("cgstudio").innerHTML = podcast[2];
+
+document.getElementById("D#").innerHTML = podcast.join("™")
+
+document.getElementById("d_audio_language").innerHTML = podcast.pop()
+
+documnet.getElementById("d_video_language").innerHTML = podcast
+
+
+function add(a, b){
+
+return a+b
+
+}
+
+function average(a, b){
+
+return add(a, b)/ 2;
+
+
+
+}
+
+
+let result = average(10, 20);
+document.getElementById("med").innerHTML = result;
+
+
+</script>
+
+</body>
+
+</html>
